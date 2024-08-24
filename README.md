@@ -11,9 +11,9 @@
     4. Run the Server
     npm rum dev
     5. Setting up Tailwind
-    -> npm install -D tailwindcss // installing tailwind
+    -> npm install -D tailwindcss postcss autoprefixer // installing tailwind
     -> npx tailwindcss init //creates tailwind.config.js file
-    -> add file extensions to tailwind config file : "./src/**/*.{html,js}"
+    -> add file extensions to tailwind config file : "./src/**/*.{html,js}","./index.html"
     -> Add the @tailwind directives at the top of index.css file: 
        @tailwind base;
        @tailwind components;
